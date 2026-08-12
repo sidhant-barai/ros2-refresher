@@ -1,0 +1,4 @@
+# ROS2 Phase 0 - Refresher
+
+Revision exercises following Packt's "ROS 2 from Scratch" course on ROS2 Humble.
+Rebuilding core concepts (nodes, topics, launch files, basic URDF) before starting Phase 1.
