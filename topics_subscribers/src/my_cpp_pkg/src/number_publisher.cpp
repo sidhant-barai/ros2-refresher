@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "example_interfaces/msg/int64.hpp"
+#include "my_robot_interfaces/msg/hardware_status.hpp"
 
 class NumberPublisherNode : public rclcpp::Node
 {

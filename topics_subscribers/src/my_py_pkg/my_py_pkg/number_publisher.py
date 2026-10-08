@@ -2,6 +2,11 @@
 import rclpy
 from rclpy.node import Node
 from example_interfaces.msg import Int64
+from my_robot_interfaces.msg import HardwareStatus
+
+# msg = HardwareStatus()
+# msg.temperature = 34.5
+
 class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
